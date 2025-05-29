@@ -1,10 +1,8 @@
-function setup(params) {
+function setup() {
     createCanvas(400, 400);
 }
 
-function draw(params) {
+function draw() {
     background(255);
     fill(100, 150, 255);
-    noStroke();
-    ellipse(mouseX, mouseY, 50, 50);
-}
+    ellipse(mouseX, mouseY, 50, 50);}
